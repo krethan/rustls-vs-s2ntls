@@ -40,10 +40,10 @@ cargo build --release
 
 ## 🏃‍♂️ Usage
 
-# Run benchmark
+### Run benchmark
 cargo run --release
 
-# Run tests
+### Run tests
 cargo test
 
 ## 📦 Dependencies
@@ -71,6 +71,3 @@ Library      Handshake(ms)   Throughput(MB/s) Requests/sec    Conn/sec        Me
 ==========================================================================================
 rustls       2.05            0.01            401.11          401.11          36.32       
 s2n-tls      101.49          0.00            9.75            9.75            36.32 
-
-
-
